@@ -1,9 +1,11 @@
-# The Attention Lab
+# @linsvideodiary | Instagram Insights
 
 An interactive, compact Instagram audience and content analytics portfolio dashboard, built with **Python**, **pandas**, **Plotly**, **Streamlit**, and **SQLite/SQL**.
 
 ## Live dashboard
-Add your Streamlit URL here after deploying.
+[Open the live dashboard](https://the-attention-lab-lin.streamlit.app/)
+
+A closer look at content, audience and growth.
 
 ## What it analyzes
 - Instagram account-level content views, reach, and engaged accounts
@@ -32,3 +34,13 @@ The `data/` directory contains real public-portfolio Instagram account analytics
 
 ## Portfolio context
 The project illustrates behavioural analytics methods transferable to product analytics, but it is not gameplay telemetry. SQL queries demonstrate JOINs, aggregations, CTEs, and window functions.
+
+## Verified export totals
+117 Reels; 5,323,019 account content views; 2,590,069 accounts reached.
+Follower totals rise from 5,695 on July 25 to 13,162 on October 24: +7,467.
+Daily net changes sum to +7,470 because the first row includes +3 against the prior day.
+
+## Updating the dashboard
+Changes are committed and pushed to this repository. Streamlit Community Cloud should track `main` and run `app.py`; a merged change then redeploys automatically. Feature branches and pull requests keep changes reviewable. GitHub access does not grant Streamlit account administration; verify the connected repository and branch in Streamlit settings if deployment does not update.
+
+The dashboard uses a light theme, full-width desktop layout, four account KPI cards, and Overview, Content, Audience, and Methods & SQL tabs. Raw exports and SQL are retained unchanged.
